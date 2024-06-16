@@ -1,0 +1,169 @@
+.authPage {
+  min-height: 100dvh;
+  width: 100%;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+.imgHeading_Css > h2 {
+  color: #ff0b37;
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+.imgHeading_Css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: 80%;
+}
+
+.LoaderDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#Nxt_watch_logo1 {
+  width: 75px;
+}
+
+.authBox {
+  min-width: 318px;
+  width: 80%;
+  max-width: 346px;
+
+  background-color: #fff;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: absolute;
+  z-index: 999;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.authBox-H55 {
+  height: 58%;
+}
+
+.authBox-H60 {
+  height: 450px;
+}
+
+.authBox:hover {
+  transform: scale(1.025);
+}
+
+.loginformTag {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 80%;
+}
+
+.formTag_Btn {
+  height: 39px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  border-width: 0px;
+  background-color: #ff0b37;
+  transition: transform 0.3s ease-in-out;
+  color: #fff;
+  margin-top: 25px;
+  width: 102%;
+  margin-bottom: 25px;
+}
+
+.formTag_Btn:active {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}
+
+.formTag_input {
+  height: 35px;
+  width: 97%;
+  outline: none;
+  font-size: 14px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.loginformTag > label {
+  margin: 12px 0px 5px;
+  color: #616e7c;
+  font-size: 14px;
+  text-align: left;
+}
+
+.eyeLog {
+  width: 30px;
+}
+
+.formTag_input_withEye {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 99%;
+  border: 1px solid #616e7c;
+  font-size: 14px;
+  padding-left: 5px;
+  position: relative;
+  border-radius: 3px;
+}
+
+#userpassword {
+  height: 33px;
+  width: 263px;
+  outline: none;
+  font-size: 14px;
+  border-width: 0px;
+  width: 90%;
+  text-align: left;
+}
+
+#checkBox {
+  outline: none;
+  width: 9%;
+  height: 21px;
+  border: none;
+  background-color: transparent;
+  appearance: none;
+  border: none;
+  position: absolute;
+  right: 5px;
+}
+
+.wannaSignUpBtn {
+  border: none;
+  background-color: transparent;
+  color: #3b82f6;
+  font-weight: 590;
+  padding: 1px;
+  border-bottom: 1px solid #3b82f6;
+  transition: transform 0.3s ease-in-out;
+  margin-left: 156px;
+}
+
+.wannaSignUpBtn:active {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}
+
+.ErrorMsg {
+  font-size: 14px;
+  color: #ff0b37;
+}
